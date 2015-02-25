@@ -95,3 +95,7 @@ There are some limitations of skrollr you should be aware of.
 * Animations between CSS transforms only work when they use the same functions in same order. From `rotate(0deg) scale(1)` to `rotate(1000deg) scale(5)` is fine.
 * Color animations don't support named values like "red" or hex values like "#ff0000". Instead, you have to use `rgb()`, `rgba()`, `hsl()` and `hsla()`. Don't worry, there's a skrollr plugin for IE < 9 to support `hsl()` (without "a"!) and to fall rgba back to rgb.
 * Color animations only work for same color functions. `hsl()` to `hsl()` or `hsla()` is fine, but not `rgb()` to `hsl()`. Which makes sense, because animating from the same colors in rgb space and in hsl space results in different animations (hsl gives you the nice rainbow stuff).
+
+
+Link
+http://www.cabletv.com/the-walking-dead
