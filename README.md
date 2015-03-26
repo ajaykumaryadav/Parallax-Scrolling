@@ -57,7 +57,7 @@ The syntax is `data-[offset]-[anchor]`, where `offset` can be any integer (0 is 
 
 * `data-0` = `data-start` = `data-0-start`: When the scroll top is 0.
 * `data-100` = `data-100-start`: When the scroll top is 100.
-* `data--100` = `data--100-start`: When the scroll top is -100 (sounds like nonsense, but keep in mind that interpolation will be relative to this point).
+* `data--100` = `data--100-start`: When the scroll top is -100
 * `data-end` = `data-0-end`: When offset is 0, but counting from the bottom of the document instead of from the top. In short: when you reach the bottom of the page.
 * `data-100-end`: 100px before we reach the bottom.
 * `data--100-end`: 100px after we reach the bottom (again, it's up to you whether you need it).
